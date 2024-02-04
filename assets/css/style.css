@@ -30,6 +30,14 @@
     margin: auto;
 }
 
+.container-sm{
+    width: 70%;
+    margin: auto;
+   
+}
+
+
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -80,6 +88,17 @@
 
 .benefits{
     background-color: var(--site-primary);
+}
+
+.get_started{
+    background-color: var(--site-primary);
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 @media screen and (min-width:768px) {
