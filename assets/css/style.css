@@ -70,6 +70,10 @@
     }
 }
 
+.planning{
+    background-color: var(--site-primary);
+}
+
 @media screen and (min-width:768px) {
 
     .col-sm-8{
@@ -78,14 +82,22 @@
     .col-sm-4{
         width: calc((100%/12)*4);
     }
+    .col-sm-6{
+        width: calc((100%/12)*6);
+    }
 }
 
 @media screen and (min-width:992px) {
-
+    .col-md-6{
+        width: calc((100%/12)*6);
+    }
 }
 
 @media screen and (min-width:1200px) {
-
+    .col-xl-6{
+        width: calc((100%/12)*6);
+    }
+    
     .container {
         width: 80%;
     }
