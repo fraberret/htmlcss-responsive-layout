@@ -1,3 +1,20 @@
-body{
-    background-color: red;
+/* color palette */
+:root{
+    --site-primary:#9792e4;
+    --site-accent:#fdc15f;
+    --site-light:#0084fd;
+    --site-lightest:#b5ddff;
+    --site-lighter:#ffffff;
+    --site-dark:#333333;
+    --site-darker:#111111;
+
 }
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
