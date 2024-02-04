@@ -14,6 +14,9 @@
     height: 50px;
     display: flex;
 }
+.debug footer{
+    height: 200px;
+}
 
 * {
     margin: 0;
@@ -32,6 +35,12 @@
 
 .container-sm{
     width: 70%;
+    margin: auto;
+   
+}
+
+.container-xs{
+    width: 60%;
     margin: auto;
    
 }
@@ -99,6 +108,15 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    & .its_free{
+        color: var(--site-accent);
+        font-size: 36px;
+    
+    }
+}
+
+#site_footer{
+    background-color: var(--site-dark);
 }
 
 @media screen and (min-width:768px) {
