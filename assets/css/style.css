@@ -96,8 +96,14 @@
 }
 
 @media screen and (min-width:992px) {
+    .col-md-4{
+        width: calc((100%/12)*4);
+    }
     .col-md-6{
         width: calc((100%/12)*6);
+    }
+    .col-md-8{
+        width: calc((100%/12)*8);
     }
 }
 
