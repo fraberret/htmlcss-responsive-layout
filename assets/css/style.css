@@ -77,6 +77,14 @@ img {
     width: 100%;
 }
 
+.d-flex{
+    display: flex;
+}
+
+.t-a-center{
+    text-align: center;
+}
+
 /* #region Header section */
 
 #site_header {
@@ -120,11 +128,13 @@ img {
 }
 
 .card {
-    display: flex;
     background-color: var(--site-lightest);
     border-radius: 30px;
     padding-top: 2rem;
     padding-left: 1rem;
+    padding-right: 1rem;
+    height: 100%;
+    position: relative;
 
     
 
@@ -141,6 +151,9 @@ img {
 
 .image{
     padding-left: 40px;
+    position: absolute;
+    bottom: 0;
+    right: 3rem;
 }
 
 .intestation{
@@ -149,6 +162,12 @@ img {
 
 .explication{
     padding: 2rem 0;
+}
+
+.item>i{
+   font-size: 50px;
+   padding-bottom: 20px;
+   color: var(--site-light);
 }
 
 .app_store{
