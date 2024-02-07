@@ -231,13 +231,43 @@ img {
 
 }
 
+.purple_card{
+    background-color: var(--site-primary);
+    border-radius: 50px;
+    display: flex;
+}
+
 .strategic_planning> h2{
     padding-bottom: 1rem;
 }
 
+.big{
+    font-size: 36px;
+    color: var(--site-primary);
+    padding: 1rem;
+    font-weight: bold;
+}
 
 .title {
     text-align: center;
+    padding: 1rem 0;
+}
+
+.round_image{
+    
+    
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    
+    
+}
+
+.round_image>img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
 }
 
 .benefits {
