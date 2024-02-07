@@ -36,7 +36,7 @@
 }
 
 .container-sm {
-    width: 70%;
+    width: 50%;
     margin: auto;
 
 }
@@ -352,7 +352,7 @@ img {
         position: absolute;
         font-size: 50px;
         top: 0;
-        right: 10px;
+        right:-1.5rem;
     }
 }
 
@@ -379,8 +379,15 @@ img {
 
 .get_started {
     background-color: var(--site-primary);
+    color: var(--site-lighter);
+    padding: 2rem 0;
 }
 
+.simple{
+    padding: 1rem 0;
+    font-size: 30px;
+    
+}
 
 .content {
     display: flex;
@@ -390,9 +397,23 @@ img {
 
     & .its_free {
         color: var(--site-accent);
-        font-size: 36px;
+        font-size: 46px;
+        font-weight: bold;
+        padding-bottom: 1rem;
 
+        
     }
+
+    
+}
+
+.content > button{
+    border: none;
+    background-color: var(--site-lighter);
+    color: var(--site-primary);
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    margin: 1rem 0;
 }
 
 #site_footer {
