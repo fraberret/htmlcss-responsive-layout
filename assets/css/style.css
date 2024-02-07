@@ -58,6 +58,12 @@
 
 }
 
+.white{
+    color: var(--site-lighter);
+    
+}
+
+
 img {
     display: block;
 }
@@ -163,6 +169,19 @@ img {
 
     
 }
+
+.card_white_small{
+    background-color: var(--site-lighter);
+    border-radius: 30px;
+    padding: 2rem;
+    height: 100%;
+
+    & .number{
+        color: var(--site-primary);
+        font-size: 50px;
+    }
+}
+
 .arrow{
     background-color: var(--site-primary);
     width: 50px;
@@ -259,6 +278,12 @@ img {
     padding: 1rem 0;
 }
 
+.title_big{
+    text-align: center;
+    font-size: 45px;
+    padding: 3rem 0;
+}
+
 .round_image{
     padding-right: 2rem ;
 }
@@ -273,6 +298,24 @@ img {
 
 .cit{
     color: var(--site-lighter);
+}
+
+.qualities{
+    color: var(--site-primary);
+    padding: 1rem 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.more_button{
+    border: none;
+    padding: 0.5rem 1rem;
+    background-color: var(--site-primary);
+    color: var(--site-lighter);
+    border-radius: 30px;
+    letter-spacing: 2px;
+    margin-top: 1rem;
+
 }
 
 .author{
@@ -337,7 +380,7 @@ img {
 @media screen and (min-width:1200px) {
 
     .col-xl-4 {
-        width: calc((100%/12)*4);
+        width: calc((100%/12)*4 - 1rem);
     }
 
     .col-xl-6 {
