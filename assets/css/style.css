@@ -235,6 +235,12 @@ img {
     background-color: var(--site-primary);
     border-radius: 50px;
     display: flex;
+    padding: 1rem;
+    align-items: center;
+    
+}
+.testimonials{
+    padding-bottom: 3rem;
 }
 
 .strategic_planning> h2{
@@ -254,20 +260,23 @@ img {
 }
 
 .round_image{
-    
-    
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    
-    
+    padding-right: 2rem ;
 }
 
 .round_image>img{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
+    object-fit: cover;
     
+}
+
+.cit{
+    color: var(--site-lighter);
+}
+
+.author{
+    padding-top: 1rem;
 }
 
 .benefits {
