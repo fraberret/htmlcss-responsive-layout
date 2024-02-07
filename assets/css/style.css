@@ -158,10 +158,11 @@ img {
 
 .intestation{
     color: var(--site-light);
+    font-weight: bold;
 }
 
 .explication{
-    padding: 2rem 0;
+    padding: 1.5rem 0;
 }
 
 .item>i{
@@ -220,6 +221,7 @@ img {
 
     .col-sm-4 {
         width: calc((100%/12)*4);
+        
     }
 
     .col-sm-6 {
