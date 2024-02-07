@@ -324,6 +324,7 @@ img {
 
 .benefits {
     background-color: var(--site-primary);
+    padding-bottom: 3rem;
 }
 
 .get_started {
